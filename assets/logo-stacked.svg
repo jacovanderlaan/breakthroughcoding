@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" width="720" height="460"
+     role="img" aria-label="Breakthrough Coding — Generate with rules.">
+  <title>Breakthrough Coding</title>
+
+  <!--
+    Third sibling, same lockup construction.
+
+    ⚠️ Two things are provisional here, because breakthroughcoding.com does not
+    exist yet and there is no live CSS to read a palette from:
+      · the green #2f7d5c
+      · the tagline "GENERATE WITH RULES."
+    Both are proposals. The tagline picks up the thread from the Modelers Rule
+    idea: code you did not hand-write still needs rules, or you end up with a
+    pile nobody can check.
+
+    Type is live text — convert to paths before print.
+  -->
+
+  <g transform="translate(260 20)">
+    <g fill="none" stroke="#2f7d5c" stroke-width="16"
+       stroke-linecap="butt" stroke-linejoin="miter">
+      <path d="M 78 44 L 34 100 L 78 156" />
+      <path d="M 122 44 L 166 100 L 122 156" />
+    </g>
+    <rect x="85" y="85" width="30" height="30" fill="#b88a1b"
+          transform="rotate(45 100 100)" />
+  </g>
+
+  <text x="360" y="300" text-anchor="middle"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="76" font-weight="700" letter-spacing="1"
+        fill="#0f172a">BREAKTHROUGH</text>
+
+  <text x="360" y="368" text-anchor="middle"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="400" letter-spacing="14"
+        fill="#2f7d5c">CODING</text>
+
+  <!--
+    "GENERATE WITH RULES." at 20/5 measures ~300 px, spanning x 210..510.
+    Rules keep 24 px clear on each side.
+  -->
+  <g stroke="#b88a1b" stroke-width="2.5">
+    <line x1="113" y1="412" x2="186" y2="412" />
+    <line x1="534" y1="412" x2="607" y2="412" />
+  </g>
+  <text x="360" y="419" text-anchor="middle"
+        font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="20" font-weight="600" letter-spacing="5"
+        fill="#b88a1b">GENERATE WITH RULES.</text>
+</svg>

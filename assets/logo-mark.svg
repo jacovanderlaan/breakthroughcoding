@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"
+     role="img" aria-label="Breakthrough Coding mark">
+  <title>Breakthrough Coding</title>
+
+  <!--
+    The family, and what each shape means:
+
+      Modeling    square, one corner cut away   → structure, opened
+      Sabbatical  circle, an arc cut away       → the loop, broken
+      Coding      angle brackets < >            → the universal code symbol
+
+    Every one keeps the same stroke weight (16), the same butt caps and miter
+    joins, and the same gold element on a 45° axis. Only the enclosing shape
+    changes, because only the subject changes.
+
+    Why brackets rather than another cut shape: < > already means "code" to
+    everyone who would buy this. Inventing a new symbol for a thing that has a
+    perfectly good one is vanity. What makes it OURS is the gold: in real code
+    the brackets wrap markup; here they hold a diamond — the generated thing
+    that comes out of the model. Brackets are the syntax; the diamond is what
+    the syntax produces.
+
+    Geometry: both chevrons are exact 45° strokes. The left runs from (78,44)
+    down to (34,100) and back to (78,156); the right mirrors it about x=100.
+    The gold diamond is a 30×30 square rotated 45° at the centre (100,100) —
+    equidistant from both brackets, on the axis both point at.
+  -->
+
+  <g fill="none" stroke="#2f7d5c" stroke-width="16"
+     stroke-linecap="butt" stroke-linejoin="miter">
+    <!-- Left bracket: < -->
+    <path d="M 78 44 L 34 100 L 78 156" />
+    <!-- Right bracket: > -->
+    <path d="M 122 44 L 166 100 L 122 156" />
+  </g>
+
+  <!-- What the syntax produces, held between the brackets. -->
+  <rect x="85" y="85" width="30" height="30" fill="#b88a1b"
+        transform="rotate(45 100 100)" />
+</svg>
